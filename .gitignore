@@ -1,0 +1,16 @@
+# for blog
+blog_templates
+markdown.css
+BLOG.md                                                                                                                                                                               
+MARP.md
+pics
+.vscode
+
+# for source
+.git
+.terraform
+.vscode
+terraform.tfstate
+terraform.tfstate.backup
+build/*
+lambda
