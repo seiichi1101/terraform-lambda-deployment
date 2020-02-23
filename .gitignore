@@ -13,4 +13,4 @@ pics
 terraform.tfstate
 terraform.tfstate.backup
 build/*
-lambda
+lambda/*
