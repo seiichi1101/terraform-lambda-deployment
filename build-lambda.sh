@@ -16,4 +16,5 @@ echo "Pack python libraries"
 pip install -r requirements.txt -t build/layer/python
 
 # Remove pycace in build directory
-find build -type f | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm
+# find build -type f | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm
+python -m py3clean -v build
